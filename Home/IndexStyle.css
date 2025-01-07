@@ -191,9 +191,11 @@ footer {
   .nav-bar .hideOnMobile {
     display: none;
   }
+
   .nav-bar ul {
     justify-content: flex-end;
   }
+
   .nav-bar .menu {
     display: block;
   }
@@ -203,6 +205,7 @@ footer {
   .nav-bar .side-bar {
     width: 100%;
   }
+
   #close {
     width: 50px;
   }
