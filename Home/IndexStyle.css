@@ -142,7 +142,6 @@ footer {
   bottom: 100%;
   background-color: white;
   width: 100%;
-  /* box-shadow: 0 0.5em 1em 0 var(--shadow-color); */
   z-index: 1;
   border: 2px solid var(--border-color);
   border-top-right-radius: 0.625em;
