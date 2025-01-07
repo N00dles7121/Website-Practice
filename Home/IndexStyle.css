@@ -124,17 +124,14 @@ footer {
   border: 2px solid var(--border-color);
   padding: 0.6em 1.2em;
   font-size: 1em;
-  cursor: pointer;
   border-radius: 1.25em;
-  cursor: inherit;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   bottom: 100%;
-  left: 0;
   background-color: white;
-  min-width: 10em;
+  min-width: 100%;
   box-shadow: 0 0.5em 1em 0 var(--shadow-color);
   z-index: 1;
   border: 2px solid var(--border-color);
@@ -166,7 +163,8 @@ footer {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .dropdown:hover .dropbtn {
   background-color: #f1f1f1;
