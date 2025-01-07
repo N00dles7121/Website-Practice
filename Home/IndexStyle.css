@@ -10,6 +10,12 @@
   margin: 0;
   padding: 0;
   cursor: url(../Cursor/cursor.cur), auto;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
