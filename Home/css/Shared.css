@@ -1,0 +1,26 @@
+/* General setup */
+
+:root {
+  --bkgrnd-color: #be79e3c6;
+  --border-color: #4819b5;
+  --shadow-color: #9a4bc5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url(../../Cursor/cursor.cur), auto;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../../Images/background.jpg);
+  z-index: -999;
+  position: relative;
+}
