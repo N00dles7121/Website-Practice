@@ -21,6 +21,5 @@
 body {
   min-height: 100vh;
   background-image: url(../../Images/background.jpg);
-  z-index: -999;
   position: relative;
 }

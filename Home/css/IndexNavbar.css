@@ -4,6 +4,7 @@
   background-color: var(--bkgrnd-color);
   backdrop-filter: blur(1px);
   position: sticky;
+  z-index: 999;
   top: 0;
   min-width: 100dvw;
 }
@@ -55,7 +56,6 @@
   right: 0;
   height: 100vh;
   width: 250px;
-  z-index: 999;
   background-color: var(--bkgrnd-color);
   box-shadow: -0.5rem 0.5rem 1rem var(--shadow-color);
   display: none;
