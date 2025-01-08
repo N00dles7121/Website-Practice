@@ -67,7 +67,7 @@ body {
 }
 
 .nav-bar a:hover {
-  box-shadow: inset 0 0 1rem var(--shadow-color);
+  box-shadow: inset 0 0 0.5rem var(--shadow-color);
 }
 
 .nav-bar a:active {
@@ -165,7 +165,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  box-shadow: inset 0 0 1rem var(--shadow-color);
+  box-shadow: inset 0 0 0.5rem var(--shadow-color);
 }
 
 .dropdown-content a:active {
@@ -180,7 +180,7 @@ footer {
 }
 
 .dropdown:hover .dropbtn {
-  box-shadow: inset 0 0 1rem var(--shadow-color);
+  box-shadow: inset 0 0 0.5rem var(--shadow-color);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
