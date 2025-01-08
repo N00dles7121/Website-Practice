@@ -1,0 +1,77 @@
+/* Dropup menu starts here */
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  z-index: -1;
+  background-color: var(--bkgrnd-color);
+  min-width: 100%;
+  box-shadow: 0 -0.5rem 1rem var(--shadow-color);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: white;
+  color: initial;
+  border: 2px solid var(--border-color);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  border-radius: 1.25em;
+  transition: 0.2s;
+  border-top: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  bottom: 100%;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  border: 2px solid var(--border-color);
+  border-top-right-radius: 0.625em;
+  border-top-left-radius: 0.625em;
+  border-bottom: none;
+  transition: all 0.4s allow-discrete;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  display: block;
+  z-index: 999;
+  transition: 0.2s;
+}
+
+.dropdown-content a:first-child {
+  border-top-left-radius: 0.625em;
+  border-top-right-radius: 0.625em;
+}
+
+.dropdown-content a:hover {
+  box-shadow: inset 0 0 0.5rem var(--shadow-color);
+}
+
+.dropdown-content a:active {
+  opacity: 0.7;
+  transition: 0.1s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  transition: all 0.4s allow-discrete;
+}
+
+.dropdown:hover .dropbtn {
+  box-shadow: inset 0 0 0.5rem var(--shadow-color);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
